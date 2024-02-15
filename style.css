@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.menu h1 {
+    text-align: center;
+}
+
+.altura,
+.peso,
+.btn {
+    margin-bottom: 15px;
+}
+
+.altura p,
+.peso p {
+    margin: 0;
+}
+
+.altura input,
+.peso input,
+.btn button {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.btn button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn button:hover {
+    background-color: #45a049;
+}
+
+.Resultado {
+    text-align: center;
+}
+
+.Resultado h2 {
+    margin-top: 20px;
+}
+
+.Resultado p {
+    font-size: 24px;
+    font-weight: bold;
+}
